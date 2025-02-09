@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Make An Executor</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .step {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .step:last-child {
+            border-bottom: none;
+        }
+        h2 {
+            color: #444;
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>How To Make An Executor</header>
+    
+    <div class="container">
+        <div class="step">
+            <h2>Step 1: Choose a Programming Language</h2>
+            <p>Decide whether to use C#, C++, or another language for your executor.</p>
+            <img src="step1.png" alt="Choosing a programming language">
+        </div>
+        
+        <div class="step">
+            <h2>Step 2: Set Up Your Development Environment</h2>
+            <p>Install essential tools such as Visual Studio or another IDE.</p>
+            <img src="step2.png" alt="Installing tools">
+        </div>
+        
+        <div class="step">
+            <h2>Step 3: Implement the Execution Core</h2>
+            <p>Write core logic that will execute scripts securely and efficiently.</p>
+            <img src="step3.png" alt="Writing core logic">
+        </div>
+        
+        <div class="step">
+            <h2>Step 4: Add a User Interface</h2>
+            <p>Design a clean UI for users to interact with the executor.</p>
+            <img src="step4.png" alt="Creating UI">
+        </div>
+        
+        <div class="step">
+            <h2>Step 5: Test and Debug</h2>
+            <p>Ensure the executor runs scripts correctly and without errors.</p>
+            <img src="step5.png" alt="Testing and debugging">
+        </div>
+    </div>
+</body>
+</html>
